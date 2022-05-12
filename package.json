@@ -1,0 +1,26 @@
+{
+  "name": "ahs_prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "2.8.1",
+    "express": "^4.17.3",
+    "hashmap": "^2.4.0",
+    "msnodesqlv8": "^2.4.5",
+    "mssql": "^6.2.1",
+    "multikeymap": "^1.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "Sai Bhargav Chowdary Kancheti <kancheti@ualberta.ca>",
+  "license": "ISC"
+}
